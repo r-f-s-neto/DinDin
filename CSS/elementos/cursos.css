@@ -1,0 +1,50 @@
+.cursos {
+    display: flex;
+    gap: 121px;
+    justify-content: center;
+    background-color: #F7F7F7;
+    padding: 109px 128px 117px 128px;
+}
+
+.cursos-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos-item h3 {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.15;
+    color: #FF4081;
+    text-align: center;
+}
+
+.cursos-item p {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.15;
+    padding-top: 23px;
+    padding-bottom: 26px;
+}
+
+.cursos-item a {
+
+    background-color: #FF4081;
+    border-radius: 62px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #FFFFFF;
+    text-align: center;
+
+    padding: 14px 48.5px;    
+}

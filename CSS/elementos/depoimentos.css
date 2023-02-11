@@ -1,0 +1,54 @@
+.depoimentos {
+    display: flex;
+    gap: 97px;
+    justify-content: center;
+    padding: 78px 128px 155px 128px;
+}
+
+.depoimentos-items-bg {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+
+}
+
+.depoimentos-items {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.depoimentos-items img {
+    min-width: 104px;
+}
+
+.depoimentos-items blockquote {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.depoimentos-items span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 10.3px;
+}
+
+
+.depoimentos-bg h2 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    padding-top: 119px;
+    padding-left:128px;
+    padding-right: 128px;
+    color: #009688;
+}

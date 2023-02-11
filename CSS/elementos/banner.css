@@ -1,0 +1,46 @@
+.banner {
+    display: flex;
+    gap: 39px;
+    justify-content: center;
+    padding-top: 125px;
+    padding-left: 206px;
+    padding-right: 206px;
+    padding-bottom: 66px;
+}
+
+.banner-item1 h1 {
+    min-width: max-content;
+    padding-bottom: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.15;
+    color: #FF4081;
+}
+
+.banner-item1 p {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 1.15;
+    padding-bottom: 38px;
+}
+
+.banner-item1 a {
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 1.15;
+    padding: 10px 30px;
+}
+
+.banner-item2 {
+    min-width: 300px;
+}

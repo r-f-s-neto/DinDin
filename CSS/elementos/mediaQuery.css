@@ -1,0 +1,77 @@
+@media (max-width:1100px) {
+    * {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:685px) {
+    .topo {
+        justify-content: center;
+    }
+
+    footer {
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .blog {
+        text-align: center;
+    }
+
+    .blog-item div {
+        width: auto;
+    }
+
+    .banner-item1 h1 {
+        min-width: auto;
+    }
+
+    .topo {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .depoimentos {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .depoimentos-bg h2 {
+        padding-top: 38px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .cursos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blog {
+        padding-top: 38px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .banner {
+        padding-top: 38px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .depoimentos-items {
+        flex-direction: column;
+        align-items: center;
+    }
+}
