@@ -1,42 +1,53 @@
 footer {
+    align-items: center;
     background-color: #419488;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 53px 128px;
 }
 
+#footer-item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 #footer-item2 a {
+    color: #FFFFFF;
     font-family: 'Ubuntu';
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
     line-height: 23px;
-    color: #FFFFFF;
+    position: relative;
+}
+
+#footer-item2 a::after {
+    background-color: rgb(221, 221, 221);
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    transition: width 0.3s;
+    width: 0%;
+}
+
+#footer-item2 a:hover {
+    color: rgb(221, 221, 221);
+}
+
+#footer-item2 a:hover::after {
+    background-color: rgb(221, 221, 221);
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 100%;
 }
 
 #footer-item3 {
     display: flex;
     flex-direction: column;
     gap: 13px;
-}
-
-#footer-item3 a {
-    border: 2px solid #FFFFFF;
-    border-radius: 62px;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;   
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#footer-item3-link1 {
-    padding: 14px 78px;
-}
-
-#footer-item3-link2 {
-    padding: 14px 55.5px;
+    width: 290px;
 }
