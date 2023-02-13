@@ -21,6 +21,7 @@
     font-weight: 700;
     line-height: 1.15;
     position: relative;
+    transition: all 0.3s;
 }
 
 .menu-item a::after {
@@ -29,8 +30,13 @@
     display: block;
     height: 3px;
     position: absolute;
-    transition: width 0.3s;
+    transition: all 0.3s;
     width: 0%;
+}
+
+.menu-item.is-current a::after {
+    background-color: #FDFDFD;
+    width: 100%;
 }
 
 .menu-item a:hover {
