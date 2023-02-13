@@ -20,6 +20,7 @@ footer {
     font-weight: 400;
     line-height: 23px;
     position: relative;
+    transition: all 0.3s;
 }
 
 #footer-item2 a::after {
@@ -28,8 +29,13 @@ footer {
     display: block;
     height: 3px;
     position: absolute;
-    transition: width 0.3s;
+    transition: all 0.3s;
     width: 0%;
+}
+
+#footer-item2 .is-current a::after {
+    background-color: #FDFDFD;
+    width: 100%;
 }
 
 #footer-item2 a:hover {
