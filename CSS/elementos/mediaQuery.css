@@ -2,6 +2,9 @@
     * {
         flex-wrap: wrap;
     }
+    .cursosCurso-item p {
+        padding-right: 0px;
+    }
 }
 
 @media (max-width:685px) {
@@ -12,6 +15,10 @@
     footer {
         justify-content: center;
         gap: 10px;
+    }
+
+    footer {
+        flex-direction: column;
     }
 }
 
@@ -73,5 +80,34 @@
     .depoimentos-items {
         flex-direction: column;
         align-items: center;
+    }
+
+    #cursosIntro {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    #cursosIntro h1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    #cursosIntro span {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .btn--outline-light {
+        padding: 10px 15px;
+    }
+
+    #footer-item3 {
+        width: 250px;
     }
 }

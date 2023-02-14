@@ -6,4 +6,10 @@
 @import url("./elementos/depoimentos.css");
 @import url("./elementos/blog.css");
 @import url("./elementos/footer.css");
+@import url("./elementos/cursosIntro.css");
+@import url("./elementos/cursosCurso.css");
+
+
+
+/* Manter o import abaixo sempre no fim da página*/
 @import url("./elementos/mediaQuery.css");

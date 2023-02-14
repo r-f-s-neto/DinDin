@@ -1,0 +1,20 @@
+#cursosIntro h1 {
+    color: #FF4081;
+    font-family: 'Ubunto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.15;
+    padding-top: 81px;
+    padding-left: 82px;
+}
+
+#cursosIntro span {
+    color: #555555;;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 82px;
+}
