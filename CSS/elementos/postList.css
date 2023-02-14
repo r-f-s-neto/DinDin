@@ -1,0 +1,75 @@
+.post-list {
+    background-color: #E5E5E5;
+    padding-block: 6.875rem 10.625rem;
+}
+
+.post-list-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 6.25rem;
+}
+
+.post-item {
+    display: flex;
+    flex: 0 0 518px;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.post-image-container {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 50%;
+    position: relative;
+    width: 100%;
+}
+
+.post-image {
+    left: 50%;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .5s ease-in-out;
+    width: 100%;
+}
+
+.post-image:hover {
+    opacity: 0.7;
+}
+
+.post-title {
+    color: #FF4081;
+    font-family: 'Ubuntu';
+    font-size: 1.875rem;
+    font-weight: 500;
+    line-height: 2.125rem;
+}
+
+.post-title a {
+    color: #FF4081;
+    transition: color .5s ease-in-out;
+}
+
+.post-title a:hover {
+    color: #ff0055;
+}
+
+.post-intro {
+    color: #000000;
+    font-family: 'Ubuntu';
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+}
+
+.post-intro a {
+    color: #000000;
+    transition: color .5s ease-in-out;
+}
+
+.post-intro a:hover {
+    color: #666;
+}

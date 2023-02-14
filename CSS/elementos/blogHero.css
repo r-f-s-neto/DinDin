@@ -1,0 +1,39 @@
+.blog-hero {
+    padding-block: 3rem 5.625rem;
+}
+
+.blog-hero-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.blog-hero-infos {
+    flex: 0 0 420px;
+}
+
+.blog-hero-title {
+    color: #009688;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.375rem;
+    padding-bottom: 2.5rem;
+    text-transform: uppercase;
+}
+
+.blog-hero-description {
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.blog-hero-image {
+    align-self: center;
+    flex: 0 0 405px;
+}

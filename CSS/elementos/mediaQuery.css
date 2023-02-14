@@ -3,14 +3,71 @@
         flex-wrap: wrap;
     }
 
+    .container {
+        width: 90%;
+    }
+
     .cursosCurso-item p {
         padding-right: 0px;
+    }
+
+    .post-list-grid {
+        column-gap: 1.25rem;
+        row-gap: 6.25rem;
+    }
+
+    .post-item {
+        flex: 0 0 calc(50% - 1.25rem);
     }
 }
 
 @media (max-width: 900px) {
     #contato {
         gap: 30px;
+    }
+
+    .blog-hero-container {
+        column-gap: 1.25rem;
+    }
+
+    .blog-hero-infos {
+        flex: 0 0 calc(50% - 1.25rem);
+    }
+
+    .blog-hero-image {
+        flex: 0 0 calc(50% - 1.25rem);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .blog-hero-container {
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    .blog-hero-infos {
+        flex: 0 0 100%;
+    }
+
+    .blog-hero-title {
+        font-size: 2.5rem;
+    }
+
+    .blog-hero-image {
+        flex: 0 0 100%;
+    }
+
+    .blog-hero-image img {
+        margin-inline: auto;
+    }
+
+    .post-list-grid {
+        row-gap: 3rem;
+    }
+
+    .post-item {
+        flex: 0 0 100%;
     }
 }
 
