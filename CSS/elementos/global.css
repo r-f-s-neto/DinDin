@@ -5,8 +5,8 @@ ul {
 }
 
 a {
-    text-decoration: none;
     display: inline-block;
+    text-decoration: none;
 }
 
 body {
@@ -14,11 +14,13 @@ body {
 }
 
 img {
-    max-width: 100%;
     display: block;
+    max-width: 100%;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin: 0px;
 }
 
