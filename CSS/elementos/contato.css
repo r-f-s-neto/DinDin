@@ -1,0 +1,66 @@
+#contato-bg {
+    padding: 105px 139px 97px 139px;
+}
+
+#contato h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    padding-bottom: 44px;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    gap: 201px;
+}
+
+#contato form input {
+    display: block;
+    width: 100%;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#contato form button {
+    display: block;
+    width: max-content;
+    color: white;
+    background-color: #FF4081;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 31.5px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+#contato form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contato div {
+    flex: 1;
+}
+
+#contato form textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#contato img {
+    min-width: 250px;
+}

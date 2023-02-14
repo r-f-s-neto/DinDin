@@ -22,6 +22,12 @@
     }
 }
 
+@media (max-width: 900px) {
+    #contato {
+        gap: 30px;
+    }
+}
+
 @media (max-width:500px) {
     .blog {
         text-align: center;
@@ -109,5 +115,9 @@
 
     #footer-item3 {
         width: 250px;
+    }
+
+    #contato-bg {
+        padding: 52px 10px 48px 10px;
     }
 }
