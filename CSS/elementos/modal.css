@@ -1,0 +1,97 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.modal {
+    background-color: #fff;
+    left: 50%;
+    max-height: 90vh;
+    max-width: 1015px;
+    padding: 6.25rem 3.75rem;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.modal-body {
+    display: flex;
+    gap: 3.25rem;
+    justify-content: center;
+    max-height: calc(100vh - 6.25rem - 6.25rem);
+    overflow-y: auto;
+}
+
+.modal-body img {
+    align-self: center;
+}
+
+.modal h1 {
+    color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+    padding-bottom: 2.625rem;
+}
+
+.modal p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.25;
+    padding-bottom: 1.25rem;
+}
+
+.modal ol {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.25;
+    padding-bottom: 1.25rem;
+}
+
+.close-modal {
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 100%;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    height: 37px;
+    margin-right: 1.75em;
+    margin-top: 1.75rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all .5s ease-in-out;
+    width: 37px;
+}
+
+.close-modal:hover {
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+[inert] {
+    cursor: default;
+    pointer-events: none;
+}
+
+[inert],
+[inert] * {
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

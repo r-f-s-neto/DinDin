@@ -40,30 +40,42 @@
 
     <section id="cursosCurso">
         <div class="cursosCurso-item">
-            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-poupando.png" alt="" width="380"></div>
+            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-poupando.png" alt=""
+                    width="380"></div>
 
             <div class="cursosCurso-item-item2">
                 <h2>Investimento para iniciantes</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                <a href="./">começar agora</a>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                <button class="btn btn--secondary open-modal">começar agora</button>
             </div>
         </div>
         <div class="cursosCurso-item">
-            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-investimento.png" alt="" width="380"></div>
+            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-investimento.png" alt=""
+                    width="380"></div>
 
             <div class="cursosCurso-item-item2">
                 <h2>Poupando e Rendendo</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                <a href="">começar agora</a>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                <button class="btn btn--secondary open-modal">começar agora</button>
             </div>
         </div>
         <div class="cursosCurso-item">
-            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-independencia.png" alt="" width="380"></div>
+            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-independencia.png" alt=""
+                    width="380"></div>
 
             <div class="cursosCurso-item-item2">
                 <h2>Independência Financeira</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                <a href="">começar agora</a>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                <button class="btn btn--secondary open-modal">começar agora</button>
             </div>
         </div>
     </section>
@@ -91,6 +103,39 @@
             </li>
         </ul>
     </footer>
+
+    <div class="overlay" role="dialog" aria-modal="true" aria-live="assertive" aria-labelledby="modal-title">
+
+        <div class="modal">
+            <div class="modal-body">
+                <img src="../imagens/dindin-imagens/ilustra-poupando.png" alt height="347">
+                <div class="modal-content">
+                    <h1 id="modal-title">Investimento para iniciantes</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam
+                        rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                        sunt
+                        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    <ol>
+                        <li>Aula introdutória</li>
+                        <li>História sobre inventimento</li>
+                        <li>Por onde começar</li>
+                    </ol>
+                    <p>Professor: Jane Doe</p>
+                    <a href="./curso/" class="btn btn--sm btn--tertiary">
+                        <span class="btn__text">Links para as aulas</span>
+                    </a>
+                </div>
+            </div>
+
+            <button class="close-modal" aria-label="Close">X</button>
+        </div>
+
+    </div>
+
+    <script src="../JS/modal.js"></script>
+    <script src="../JS/inert.min.js"></script>
 
 </body>
 

@@ -1,8 +1,8 @@
 #cursosCurso {
-    padding-top: 95px;
+    padding-bottom: 134px;
     padding-left: 82px;
     padding-right: 82px;
-    padding-bottom: 134px;
+    padding-top: 95px;
 
 }
 
@@ -16,39 +16,25 @@
 .cursosCurso-item h2 {
     color: #FF4081;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
     line-height: 40px;
 }
 
 .cursosCurso-item p {
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
     line-height: 21px;
-    padding-top: 37px;
     padding-bottom: 53px;
     padding-right: 73px;
+    padding-top: 37px;
 }
 
-.cursosCurso-item a {
-    color: #FFFFFF;
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    background-color: #419488;
-    border-radius: 62px;
-    padding: 14px 48.5px;
-
-}
-
-.cursosCurso-item + .cursosCurso-item {
+.cursosCurso-item+.cursosCurso-item {
     border-top: 5px solid #C4C4C4;
     padding-top: 107px;
 }

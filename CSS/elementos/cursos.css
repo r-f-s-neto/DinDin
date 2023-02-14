@@ -6,6 +6,18 @@
     padding: 109px 128px 117px 128px;
 }
 
+.cursos h2 {
+    border: 0;
+    clip: rect(1px 1px 1px 1px);
+    color: #FF4081;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
 .cursos-item {
     align-items: center;
     display: flex;
