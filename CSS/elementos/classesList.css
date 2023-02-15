@@ -1,0 +1,54 @@
+.classes-list {
+    background-color: #E5E5E5;
+    padding-block: 6.875rem 10.625rem;
+}
+
+.classes-list-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4.75rem;
+}
+
+.class-item {
+    align-items: center;
+    display: flex;
+    gap: 4.75rem;
+    justify-content: center;
+}
+
+.class-item-divider {
+    border-bottom: 3px solid #C4C4C4;
+}
+
+.class-infos-container {
+    display: flex;
+    flex: 0 0 500px;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.class-title {
+    color: #FF4081;
+    font-family: 'Ubuntu';
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.class-intro {
+    color: #000000;
+    font-family: 'Ubuntu';
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.class-video-container {
+    flex: 0 0 500px;
+}
+
+.class-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}

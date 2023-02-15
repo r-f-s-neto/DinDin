@@ -17,22 +17,8 @@
     gap: 1.25rem;
 }
 
-.post-image-container {
-    display: block;
-    margin: 0;
-    overflow: hidden;
-    padding-top: 50%;
-    position: relative;
-    width: 100%;
-}
-
 .post-image {
-    left: 50%;
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: opacity .5s ease-in-out;
+    aspect-ratio: 2 / 1;
     width: 100%;
 }
 
