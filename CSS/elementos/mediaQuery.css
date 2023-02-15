@@ -44,6 +44,10 @@
         flex: 0 0 calc(50% - 1.25rem);
     }
 
+    #post-item2 img {
+        height: 477px;
+    }
+
 }
 
 @media (max-width: 900px) {
@@ -64,7 +68,7 @@
     }
 
     #post img {
-        height: 222px;
+        height: 357px;
     }
 
     #post {
@@ -124,7 +128,7 @@
     }
 
     #post img {
-        height: 246px;
+        height: 296px;
     }
 
 
@@ -158,7 +162,7 @@
     }
 
     #post img {
-        height: 216px;
+        height: 262px;
     }
 
     #post {
@@ -169,14 +173,6 @@
 @media (max-height:600px) {
     .modal-body img {
         align-self: flex-start;
-    }
-
-    #post img {
-        height: 216px;
-    }
-
-    #post {
-        padding: 56px 20px 56px 20px;
     }
 }
 
@@ -279,7 +275,7 @@
     }
 
     #post img {
-        height: 208px;
+        height: 211px;
     }
 
     #post {
