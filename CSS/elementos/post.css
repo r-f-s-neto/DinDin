@@ -1,0 +1,79 @@
+#post {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+    align-items: center;
+    padding: 111px 204px 111px 204px;
+}
+
+#post-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#post-item1 h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+}
+
+#post-item1 span {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9D9D9D;
+}
+
+#post img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#post-item2 {
+    width: 100%;
+}
+
+#post p {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+#post h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 29.87px;
+    color: #419488;
+    padding-bottom: 32px;
+}
+
+#post p + p {
+    padding-top: 30px;
+}
+
+#conhecaNossosCursos h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    color: #FF4081;
+    text-align: center;
+    padding-top: 79px;
+}
+
+#conhecaNossosCursos {
+    background-color: #F7F7F7;
+}
