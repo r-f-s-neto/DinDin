@@ -15,6 +15,7 @@
 @import url("./elementos/container.css");
 @import url("./elementos/modal.css");
 @import url("./elementos/util.css");
+@import url("./elementos/post.css");
 
 /* Manter o import abaixo sempre no fim da página*/
 @import url("./elementos/mediaQuery.css");

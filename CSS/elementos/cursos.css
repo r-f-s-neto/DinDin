@@ -21,6 +21,7 @@
     font-weight: 700;
     line-height: 1.15;
     text-align: center;
+    width: max-content;
 }
 
 .cursos-item p {
