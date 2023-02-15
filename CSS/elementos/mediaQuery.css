@@ -192,6 +192,10 @@
     #contato-bg {
         padding: 52px 10px 48px 10px;
     }
+
+    .cursos-item h3 {
+        width: auto;
+    }
 }
 
 @media (max-height:600px) {
