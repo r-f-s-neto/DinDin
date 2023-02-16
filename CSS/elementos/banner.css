@@ -1,11 +1,13 @@
-.banner {
+.banner-container {
+    align-items: center;
     display: flex;
-    gap: 39px;
+    gap: 112px;
     justify-content: center;
-    padding-bottom: 66px;
-    padding-left: 206px;
-    padding-right: 206px;
-    padding-top: 125px;
+    padding-block: 125px 66px;
+}
+
+.banner-item1 {
+    flex: 0 0 415px;
 }
 
 .banner-item1 h1 {
@@ -15,11 +17,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: 1.15;
-    min-width: max-content;
     padding-bottom: 19px;
 }
 
 .banner-item1 p {
+    color: #555555;
     font-family: 'Ubuntu', sans-serif;
     font-size: 27px;
     font-style: normal;
@@ -29,5 +31,10 @@
 }
 
 .banner-item2 {
-    min-width: 300px;
+    flex: 0 0 500px;
+}
+
+.banner-item2 img {
+    aspect-ratio: 503 / 513;
+    height: auto;
 }
