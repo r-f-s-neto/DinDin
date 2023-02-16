@@ -25,7 +25,11 @@
     line-height: 1.15;
     position: relative;
     text-transform: uppercase;
-    transition: all 0.3s;
+    transition: color .5s ease-in-out;
+}
+
+.menu-item a:hover {
+    color: rgb(221, 221, 221);
 }
 
 .menu-item a::after {
@@ -34,17 +38,8 @@
     display: block;
     height: 3px;
     position: absolute;
-    transition: all 0.3s;
+    transition: background-color .5s ease-in-out, width .5s ease-in-out;
     width: 0%;
-}
-
-.menu-item.is-current a::after {
-    background-color: #FDFDFD;
-    width: 100%;
-}
-
-.menu-item a:hover {
-    color: rgb(221, 221, 221);
 }
 
 .menu-item a:hover::after {
@@ -53,5 +48,10 @@
     display: block;
     height: 3px;
     position: absolute;
+    width: 100%;
+}
+
+.menu-item.is-current a::after {
+    background-color: #FDFDFD;
     width: 100%;
 }
