@@ -9,7 +9,8 @@
 
     .blog h2,
     .blog-itens,
-    .footer-container {
+    .footer-container,
+    .depoimentos-container {
         margin-inline: 0;
     }
 
@@ -19,6 +20,12 @@
 
     .banner-container {
         gap: 1.25rem;
+    }
+
+    .depoimentos-items,
+    .banner-container {
+        column-gap: 1.25rem;
+        row-gap: 3rem;
     }
 
     .banner-container {
@@ -31,7 +38,8 @@
     .class-infos-container,
     .class-video-container,
     .banner-item1,
-    .banner-item2 {
+    .banner-item2,
+    .depoimentos-item {
         flex: 0 0 calc(50% - 1.25rem);
     }
 
@@ -64,6 +72,15 @@
         flex-direction: column;
         gap: 2rem;
     }
+
+    .depoimentos {
+        padding-block: 50px;
+    }
+
+    .depoimentos-item {
+        flex: 0 0 100%;
+    }
+
 
     #post img {
         height: 357px;
@@ -179,19 +196,6 @@
 
 @media (max-width:500px) {
 
-    .depoimentos {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-    }
-
-    .depoimentos-bg h2 {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 38px;
-        text-align: center;
-    }
-
     .cursos {
         padding-left: 10px;
         padding-right: 10px;
@@ -199,11 +203,6 @@
 
     .blog {
         padding-top: 38px;
-    }
-
-    .depoimentos-items {
-        align-items: center;
-        flex-direction: column;
     }
 
     #cursosIntro {
@@ -246,6 +245,12 @@
 
     #post {
         padding: 56px 15px 56px 15px;
+    }
+
+    .depoimentos-item {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
 }
 

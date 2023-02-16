@@ -1,28 +1,44 @@
 .depoimentos {
-    display: flex;
-    gap: 97px;
-    justify-content: center;
-    padding: 78px 128px 155px 128px;
+    padding-block: 120px;
 }
 
-.depoimentos-items-bg {
-    display: flex;
-    flex-direction: column;
-    gap: 86px;
+.depoimentos-container {
+    margin-inline: 40px;
+}
 
+.depoimentos-container h2 {
+    color: #009688;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 78px;
+    text-transform: uppercase;
 }
 
 .depoimentos-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 97px;
+}
+
+.depoimentos-item {
     align-items: center;
     display: flex;
+    flex: 0 0 43%;
+    flex-wrap: nowrap;
     gap: 23px;
 }
 
-.depoimentos-items img {
+.depoimentos-item img {
+    aspect-ratio: 1 / 1;
+    height: auto;
     min-width: 104px;
 }
 
-.depoimentos-items blockquote {
+.depoimentos-item blockquote {
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -31,24 +47,11 @@
 
 }
 
-.depoimentos-items span {
+.depoimentos-item span {
     font-family: 'Ubuntu', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
     padding-top: 10.3px;
-}
-
-
-.depoimentos-bg h2 {
-    color: #009688;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 37px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px;
-    padding-left: 128px;
-    padding-right: 128px;
-    padding-top: 119px;
 }
