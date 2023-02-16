@@ -13,9 +13,9 @@
 }
 
 .depoimentos-items {
+    align-items: center;
     display: flex;
     gap: 23px;
-    align-items: center;
 }
 
 .depoimentos-items img {
@@ -23,32 +23,32 @@
 }
 
 .depoimentos-items blockquote {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
     line-height: 25px;
 
 }
 
 .depoimentos-items span {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
     line-height: 25px;
     padding-top: 10.3px;
 }
 
 
 .depoimentos-bg h2 {
-    font-family: 'Nunito', sans-serif;
+    color: #009688;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 37px;
     font-style: normal;
     font-weight: 700;
-    font-size: 37px;
     line-height: 50px;
-    padding-top: 119px;
-    padding-left:128px;
+    padding-left: 128px;
     padding-right: 128px;
-    color: #009688;
+    padding-top: 119px;
 }
