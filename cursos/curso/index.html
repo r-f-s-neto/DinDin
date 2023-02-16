@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Investimento para iniciantes | DinDin</title>
+    <meta name="description"
+        content="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Iste natus error sit voluptatem.">
     <link rel="icon" href="../../imagens/favicon/favicon.ico" sizes="any">
     <link rel="icon" href="../../imagens/favicon/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../../imagens/favicon/apple-touch-icon.png">
@@ -14,11 +16,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
 </head>
 
-<body>
+<body class="preload">
 
     <header class="topo">
         <div class="container">
@@ -28,10 +30,11 @@
 
                 <nav aria-label="main">
                     <ul class="menu" role="menu">
-                        <li class="menu-item is-current" role="menu-item"><a href="../../cursos/"
-                                aria-current="page">CURSOS</a></li>
-                        <li class="menu-item" role="menu-item"><a href="../../blog/">BLOG</a></li>
-                        <li class="menu-item" role="menu-item"><a href="../../contato/">CONTATO</a></li>
+                        <li class="menu-item is-current" role="menuitem"><a href="../../cursos/"
+                                aria-current="page">Cursos</a>
+                        </li>
+                        <li class="menu-item" role="menuitem"><a href="../../blog/">Blog</a></li>
+                        <li class="menu-item" role="menuitem"><a href="../../contato/">Contato</a></li>
                     </ul>
                 </nav>
             </div>
@@ -54,7 +57,7 @@
                             consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                     </div>
                     <div class="hero-image">
-                        <img src="../../imagens/dindin-imagens/ilustra-poupando.png" alt>
+                        <img src="../../imagens/dindin-imagens/ilustra-poupando.webp" alt width="382" height="383">
                     </div>
                 </div>
             </div>
@@ -71,11 +74,9 @@
 
                     <div class="class-item">
                         <div class="class-video-container">
-                            <iframe class="class-video" src="https://www.youtube.com/embed/7lv691xbEl4"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                            <lite-youtube videoid="7lv691xbEl4" playlabel="Play: Aula 1: Por que?"></lite-youtube>
                         </div>
+
                         <div class="class-infos-container">
                             <h2 class="class-title">Aula 1: Por que?</h2>
                             <p class="class-intro">Desde Sócrates, a filosofia é a senhora das dúvidas desconcertantes.
@@ -93,10 +94,8 @@
 
                     <div class="class-item">
                         <div class="class-video-container">
-                            <iframe class="class-video" src="https://www.youtube.com/embed/H_Bi5ihw5RQ"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                            <lite-youtube videoid="H_Bi5ihw5RQ"
+                                playlabel="Play: Aula 2: A história do dinheiro"></lite-youtube>
                         </div>
                         <div class="class-infos-container">
                             <h2 class="class-title">Aula 2: A história do dinheiro</h2>
@@ -113,10 +112,8 @@
 
                     <div class="class-item">
                         <div class="class-video-container">
-                            <iframe class="class-video" src="https://www.youtube.com/embed/VLy8UEfDJlI"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                            <lite-youtube videoid="VLy8UEfDJlI"
+                                playlabel="Play: Aula 3: Poupar x Investir"></lite-youtube>
                         </div>
                         <div class="class-infos-container">
                             <h2 class="class-title">Aula 3: Poupar x Investir</h2>
@@ -148,9 +145,9 @@
                 </a>
 
                 <ul id="footer-item2" role="menu">
-                    <li class="is-current"><a href="../../cursos/" aria-current="page">cursos</a></li>
-                    <li><a href="../../blog/">blog</a></li>
-                    <li><a href="../../contato/">contato</a></li>
+                    <li class="is-current" role="menuitem"><a href="../../cursos/" aria-current="page">cursos</a></li>
+                    <li role="menuitem"><a href="../../blog/">blog</a></li>
+                    <li role="menuitem"><a href="../../contato/">contato</a></li>
                 </ul>
 
                 <ul id="footer-item3">
@@ -171,6 +168,9 @@
         </div>
 
     </footer>
+
+    <script src="../../JS/script.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.5.0/lite-youtube.js"></script>
 
 </body>
 

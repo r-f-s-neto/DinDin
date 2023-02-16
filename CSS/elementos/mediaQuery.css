@@ -8,16 +8,53 @@
     }
 
     .blog h2,
-    .blog-itens {
+    .blog-itens,
+    .footer-container,
+    .depoimentos-container,
+    .cursos-container,
+    .contato-container {
         margin-inline: 0;
     }
 
-    .footer-container {
-        margin-inline: 0;
+    .hero-container,
+    .contato-container {
+        column-gap: 1.25rem;
     }
 
-    .cursosCurso-item p {
-        padding-right: 0px;
+    .banner-container {
+        gap: 1.25rem;
+    }
+
+    .contato-container {
+        gap: 3rem;
+    }
+
+    .depoimentos-items,
+    .banner-container {
+        column-gap: 1.25rem;
+        row-gap: 3rem;
+    }
+
+    .classes-list,
+    .banner-container,
+    .contato,
+    #cursosCurso {
+        padding-block: 66px;
+    }
+
+    #cursosIntro {
+        padding-top: 66px;
+    }
+
+    .post-item,
+    .hero-infos,
+    .hero-image,
+    .class-infos-container,
+    .class-video-container,
+    .banner-item1,
+    .banner-item2,
+    .depoimentos-item {
+        flex: 0 0 calc(50% - 1.25rem);
     }
 
     .post-list-grid {
@@ -41,37 +78,20 @@
         flex: 0 0 calc(50% - 1.25rem);
     }
 
-    .hero {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
     .class-item {
         gap: 1.25rem;
     }
 
-    .class-infos-container {
-        flex: 0 0 calc(50% - 1.25rem);
+    .cursosCurso-item-item1 {
+        margin-left: 0;
     }
 
-    .class-video-container {
-        flex: 0 0 calc(50% - 1.25rem);
+    .cursosCurso-item p {
+        padding-right: 0;
     }
 
     #post-item2 img {
         height: 477px;
-    }
-
-    #contato img {
-        min-width: 350px;
-    }
-
-    #contato {
-        gap: 100px;
-    }
-
-    #contato form {
-        min-width: 300px;
     }
 
 }
@@ -87,17 +107,19 @@
         gap: 2rem;
     }
 
-    .hero-container {
-        column-gap: 1.25rem;
+    .depoimentos,
+    .cursos {
+        padding-block: 50px;
     }
 
-    .hero-infos {
-        flex: 0 0 calc(50% - 1.25rem);
+    .depoimentos-item {
+        flex: 0 0 100%;
     }
 
-    .hero-image {
-        flex: 0 0 calc(50% - 1.25rem);
+    .cursosCurso-item {
+        gap: 2rem;
     }
+
 
     #post img {
         height: 357px;
@@ -108,30 +130,28 @@
         padding: 111px 51px 111px 51px;
     }
 
-    #contato form {
-        min-width: auto;
-    }
-
 }
 
 @media (max-width: 768px) {
-
     .hero-container {
         flex-wrap: wrap;
         row-gap: 2rem;
     }
 
-    .hero-infos {
+    .hero-infos,
+    .hero-image,
+    .class-infos-container,
+    .class-video-container,
+    .banner-container,
+    .post-item,
+    .banner-item1,
+    .banner-item2 {
         flex: 0 0 100%;
     }
 
     .hero-title {
         font-size: 2.5rem;
         line-height: 3rem;
-    }
-
-    .hero-image {
-        flex: 0 0 100%;
     }
 
     .hero-image img {
@@ -143,18 +163,6 @@
         row-gap: 2rem;
     }
 
-    .class-infos-container {
-        flex: 0 0 100%;
-    }
-
-    .class-video-container {
-        flex: 0 0 100%;
-    }
-
-}
-
-@media (max-width: 768px) {
-
     .footer-container {
         flex-direction: column;
         gap: 2rem;
@@ -164,10 +172,6 @@
 
     .post-list-grid {
         row-gap: 3rem;
-    }
-
-    .post-item {
-        flex: 0 0 100%;
     }
 
     #post img {
@@ -182,6 +186,31 @@
         margin-top: 50px;
     }
 
+    .banner-container {
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .banner-item2 img {
+        margin-inline: auto;
+    }
+
+    .cursos-items {
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .cursos-item,
+    .contato-form,
+    .contato-img {
+        width: 70%;
+    }
+
+    .contato-container {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width:685px) {
@@ -189,6 +218,10 @@
     .topo-container {
         flex-direction: column;
         row-gap: 1.25rem;
+    }
+
+    .hero-infos {
+        text-align: center;
     }
 
     .modal {
@@ -203,6 +236,7 @@
     }
 
     .modal-body img {
+        aspect-ratio: 1/1;
         height: auto;
         width: 50%;
     }
@@ -215,77 +249,38 @@
         padding: 56px 51px 56px 51px;
     }
 
-    .hero-description {
+    #cursosIntro {
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 
-    .hero-title--uppercase {
+    .contato-container h1 {
         text-align: center;
     }
-}
 
-@media (max-height:600px) {
-    .modal-body img {
-        align-self: flex-start;
+    .cursosCurso-item {
+        flex-direction: column;
     }
+
+    .cursosCurso-item-item1 img {
+        margin-inline: auto;
+    }
+
+    .cursosCurso-item-item2 {
+        text-align: center;
+    }
+
+    .contato-form form button {
+        align-self: center;
+    }
+
 }
 
 @media (max-width:500px) {
 
-    .banner-item1 h1 {
-        min-width: auto;
-    }
-
-    .depoimentos {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-    }
-
-    .depoimentos-bg h2 {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 38px;
-        text-align: center;
-    }
-
-    .cursos {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     .blog {
         padding-top: 38px;
-    }
-
-    .banner {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 38px;
-        text-align: center;
-    }
-
-    .depoimentos-items {
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #cursosIntro {
-        align-content: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #cursosIntro h1 {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-    }
-
-    #cursosIntro span {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
     }
 
     .btn--outline-light {
@@ -296,14 +291,6 @@
         width: 250px;
     }
 
-    #contato-bg {
-        padding: 52px 10px 48px 10px;
-    }
-
-    .cursos-item h3 {
-        width: auto;
-    }
-
     #post img {
         height: 211px;
     }
@@ -312,12 +299,16 @@
         padding: 56px 15px 56px 15px;
     }
 
-    .hero-image img {
-        min-width: 15.625rem;
+    .depoimentos-item {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
 
-    #contato img {
-        min-width: 250px;
+    .cursos-item,
+    .contato-form,
+    .contato-img {
+        width: 100%;
     }
 
 }
@@ -331,9 +322,7 @@
         gap: 0;
         justify-content: space-between;
     }
-}
 
-@media (max-width:350px) {
     #post-item1 h1 {
         font-size: 30px;
         line-height: 1.15;

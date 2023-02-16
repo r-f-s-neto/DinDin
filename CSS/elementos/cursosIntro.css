@@ -1,20 +1,21 @@
+#cursosIntro {
+    padding-top: 80px;
+}
+
 #cursosIntro h1 {
     color: #FF4081;
-    font-family: 'Ubunto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 1.15;
-    padding-top: 81px;
-    padding-left: 82px;
+    line-height: 70px;
 }
 
 #cursosIntro span {
-    color: #555555;;
-    font-family: 'Ubuntu';
+    color: #555555;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    padding-left: 82px;
+    line-height: 24px;
 }

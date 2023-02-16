@@ -54,6 +54,8 @@
 
 .modal-body img {
     align-self: center;
+    aspect-ratio: 1/1;
+    height: auto;
 }
 
 .modal h1 {
