@@ -283,14 +283,9 @@
         padding: 56px 15px 56px 15px;
     }
 
-    .hero-image img {
-        min-width: 15.625rem;
-    }
-
     #contato img {
         min-width: 250px;
     }
-
 
     .depoimentos-item {
         flex-wrap: wrap;
