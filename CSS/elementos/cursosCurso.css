@@ -1,16 +1,21 @@
 #cursosCurso {
     padding-bottom: 134px;
-    padding-left: 82px;
-    padding-right: 82px;
     padding-top: 95px;
 
 }
 
 .cursosCurso-item {
+    align-items: center;
     display: flex;
     gap: 53px;
     justify-content: center;
     padding-bottom: 68px;
+}
+
+.cursosCurso-item img {
+    aspect-ratio: 1/1;
+    height: auto;
+    min-width: 300px;
 }
 
 .cursosCurso-item h2 {
@@ -36,12 +41,12 @@
 
 .cursosCurso-item+.cursosCurso-item {
     border-top: 5px solid #C4C4C4;
-    padding-top: 107px;
+    padding-top: 95px;
 }
 
 .cursosCurso-item-item1 {
     flex: 1;
-    min-width: 300px;
+    margin-left: 48px;
 }
 
 .cursosCurso-item-item2 {

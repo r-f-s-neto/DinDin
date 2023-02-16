@@ -37,8 +37,13 @@
 
     .classes-list,
     .banner-container,
-    .contato {
+    .contato,
+    #cursosCurso {
         padding-block: 66px;
+    }
+
+    #cursosIntro {
+        padding-top: 66px;
     }
 
     .post-item,
@@ -77,24 +82,16 @@
         gap: 1.25rem;
     }
 
+    .cursosCurso-item-item1 {
+        margin-left: 0;
+    }
+
     .cursosCurso-item p {
-        padding-right: 0px;
+        padding-right: 0;
     }
 
     #post-item2 img {
         height: 477px;
-    }
-
-    #contato img {
-        min-width: 350px;
-    }
-
-    #contato {
-        gap: 100px;
-    }
-
-    #contato form {
-        min-width: 300px;
     }
 
 }
@@ -119,6 +116,10 @@
         flex: 0 0 100%;
     }
 
+    .cursosCurso-item {
+        gap: 2rem;
+    }
+
 
     #post img {
         height: 357px;
@@ -127,10 +128,6 @@
     #post {
         gap: 37px;
         padding: 111px 51px 111px 51px;
-    }
-
-    #contato form {
-        min-width: auto;
     }
 
 }
@@ -164,10 +161,6 @@
     .class-item {
         flex-wrap: wrap;
         row-gap: 2rem;
-    }
-
-    #contato {
-        gap: 30px;
     }
 
     .footer-container {
@@ -239,6 +232,7 @@
     }
 
     .modal-body img {
+        aspect-ratio: 1/1;
         height: auto;
         width: 50%;
     }
@@ -251,30 +245,30 @@
         padding: 56px 51px 56px 51px;
     }
 
+    #cursosIntro {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cursosCurso-item {
+        flex-direction: column;
+    }
+
+    .cursosCurso-item-item1 img {
+        margin-inline: auto;
+    }
+
+    .cursosCurso-item-item2 {
+        text-align: center;
+    }
+
 }
 
 @media (max-width:500px) {
 
     .blog {
         padding-top: 38px;
-    }
-
-    #cursosIntro {
-        align-content: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #cursosIntro h1 {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-    }
-
-    #cursosIntro span {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
     }
 
     .btn--outline-light {
@@ -285,20 +279,12 @@
         width: 250px;
     }
 
-    #contato-bg {
-        padding: 52px 10px 48px 10px;
-    }
-
     #post img {
         height: 211px;
     }
 
     #post {
         padding: 56px 15px 56px 15px;
-    }
-
-    #contato img {
-        min-width: 250px;
     }
 
     .depoimentos-item {
