@@ -4,7 +4,7 @@
 
 #cursosIntro h1 {
     color: #FF4081;
-    font-family: 'Ubunto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
@@ -13,7 +13,7 @@
 
 #cursosIntro span {
     color: #555555;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;

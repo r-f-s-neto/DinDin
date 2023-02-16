@@ -220,6 +220,10 @@
         row-gap: 1.25rem;
     }
 
+    .hero-infos {
+        text-align: center;
+    }
+
     .modal {
         height: 100vh;
         max-height: 100vh;
@@ -251,6 +255,10 @@
         text-align: center;
     }
 
+    .contato-container h1 {
+        text-align: center;
+    }
+
     .cursosCurso-item {
         flex-direction: column;
     }
@@ -261,6 +269,10 @@
 
     .cursosCurso-item-item2 {
         text-align: center;
+    }
+
+    .contato-form form button {
+        align-self: center;
     }
 
 }
