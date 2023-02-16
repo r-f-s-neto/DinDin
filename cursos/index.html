@@ -18,90 +18,111 @@
         rel="stylesheet">
 </head>
 
-<body>
-    <header class="topo">
-        <div>
-            <a href="../"><img src="../imagens/dindin-imagens/logo-header.png" alt="Logo da dindin" height="71"></a>
-        </div>
+<body aria-haspopup="dialog">
 
-        <nav role="navigation" aria-level="main navigation">
-            <ul class="menu" role="menu">
-                <li class="menu-item is-current" role="menu-item"><a href="../cursos/">CURSOS</a></li>
-                <li class="menu-item" role="menu-item"><a href="../blog/">BLOG</a></li>
-                <li class="menu-item" role="menu-item"><a href="../contato/">CONTATO</a></li>
-            </ul>
-        </nav>
+    <header class="topo">
+        <div class="container">
+            <div class="topo-container">
+                <a href="../"><img src="../imagens/dindin-imagens/logo-header.svg" alt="Logo da dindin" width="239"
+                        height="65"></a>
+
+                <nav aria-label="main">
+                    <ul class="menu" role="menu">
+                        <li class="menu-item is-current" role="menu-item"><a href="../cursos/"
+                                aria-current="page">CURSOS</a></li>
+                        <li class="menu-item" role="menu-item"><a href="../blog/">BLOG</a></li>
+                        <li class="menu-item" role="menu-item"><a href="../contato/">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <section id="cursosIntro">
-        <h1>Cursos</h1>
-        <span>Educação financeira é tudo de bom</span>
-    </section>
+    <main>
+        <section id="cursosIntro">
+            <h1>Cursos</h1>
+            <span>Educação financeira é tudo de bom</span>
+        </section>
 
-    <section id="cursosCurso">
-        <div class="cursosCurso-item">
-            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-poupando.png" alt=""
-                    width="380"></div>
+        <section id="cursosCurso">
+            <div class="cursosCurso-item">
+                <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-poupando.png" alt=""
+                        width="380"></div>
 
-            <div class="cursosCurso-item-item2">
-                <h2>Investimento para iniciantes</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                <button class="btn btn--secondary open-modal">começar agora</button>
+                <div class="cursosCurso-item-item2">
+                    <h2>Investimento para iniciantes</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                        fugit,
+                        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                    <button class="btn btn--secondary open-modal">começar agora</button>
+                </div>
             </div>
-        </div>
-        <div class="cursosCurso-item">
-            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-investimento.png" alt=""
-                    width="380"></div>
+            <div class="cursosCurso-item">
+                <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-investimento.png" alt=""
+                        width="380"></div>
 
-            <div class="cursosCurso-item-item2">
-                <h2>Poupando e Rendendo</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                <button class="btn btn--secondary open-modal">começar agora</button>
+                <div class="cursosCurso-item-item2">
+                    <h2>Poupando e Rendendo</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                        fugit,
+                        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                    <button class="btn btn--secondary open-modal">começar agora</button>
+                </div>
             </div>
-        </div>
-        <div class="cursosCurso-item">
-            <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-independencia.png" alt=""
-                    width="380"></div>
+            <div class="cursosCurso-item">
+                <div class="cursosCurso-item-item1"><img src="../imagens/dindin-imagens/ilustra-independencia.png"
+                        alt="" width="380"></div>
 
-            <div class="cursosCurso-item-item2">
-                <h2>Independência Financeira</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                <button class="btn btn--secondary open-modal">começar agora</button>
+                <div class="cursosCurso-item-item2">
+                    <h2>Independência Financeira</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                        fugit,
+                        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                    <button class="btn btn--secondary open-modal">começar agora</button>
+                </div>
             </div>
-        </div>
-    </section>
-    <footer>
-        <div>
-            <img src="../imagens/dindin-imagens/logo-footer.png" alt="Logo da dindin">
-        </div>
+        </section>
+    </main>
+    <footer class="footer">
 
-        <ul id="footer-item2">
-            <li class="is-current"><a href="../cursos/">cursos</a></li>
-            <li><a href="../blog/">blog</a></li>
-            <li><a href="../contato/">contato</a></li>
-        </ul>
+        <div class="container">
 
-        <ul id="footer-item3">
-            <li>
-                <a href="#" class="btn btn--block btn--outline-light">
-                    <span class="btn__text">quero ser prof</span>
+            <div class="footer-container">
+
+                <a href="#top" title="Ir para o topo">
+                    <img src="../imagens/dindin-imagens/logo-footer.svg" alt="Logo da dindin" width="300" height="94"
+                        class="footer-logo">
                 </a>
-            </li>
-            <li>
-                <a href="#" class="btn btn--block btn--outline-light">
-                    <span class="btn__text">aqui tem outro link</span>
-                </a>
-            </li>
-        </ul>
+
+                <ul id="footer-item2" role="menu">
+                    <li class="is-current"><a href="../cursos/" aria-current="page">cursos</a></li>
+                    <li><a href="../blog/">blog</a></li>
+                    <li><a href="../contato/">contato</a></li>
+                </ul>
+
+                <ul id="footer-item3">
+                    <li>
+                        <a href="../contato/" class="btn btn--block btn--outline-light">
+                            <span class="btn__text">quero ser prof</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../contato/" class="btn btn--block btn--outline-light">
+                            <span class="btn__text">aqui tem outro link</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
     </footer>
 
     <div class="overlay" role="dialog" aria-modal="true" aria-live="assertive" aria-labelledby="modal-title">

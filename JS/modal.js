@@ -37,12 +37,24 @@ function attachEventListener(openButtons, closeButtons, overlay) {
 }
 
 function setVisibile(visible) {
-    const display = visible ? 'block' : 'none'
-    document.querySelector('.overlay').style.display = display
+    // const display = visible ? 'block' : 'none'
+    // const modal = modaldocument.querySelector('.overlay').style.display = display
+
+    const modal = document.querySelector('.overlay')
+
+    if (visible == false) {
+        modal.classList.add('fadeout')
+        setTimeout(() => {
+            modal.style.display = 'none';
+            modal.classList.remove('fadeout')
+        }, 500)
+    } else {
+        modal.style.display = 'block';
+    }
 }
 
 function setFocus() {
-    document.querySelectorAll('.modal button, modal input, modal textarea, modal select')[0].focus()
+    document.querySelectorAll('.modal button')[0].focus()
 }
 
 function setInertBehindModal(inert) {

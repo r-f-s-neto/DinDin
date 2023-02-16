@@ -1,26 +1,30 @@
 .topo {
-    align-items: center;
     background-color: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.topo-container {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 23px 82px;
+    padding-block: 26px;
 }
 
 .menu {
     display: flex;
-    gap: 30px;
+    gap: 42px;
 }
 
 .menu-item a {
     color: #FDFDFD;
-    font-family: "Ubunto", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.15;
     position: relative;
+    text-transform: uppercase;
     transition: all 0.3s;
 }
 

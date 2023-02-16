@@ -16,6 +16,7 @@
 @import url("./elementos/modal.css");
 @import url("./elementos/util.css");
 @import url("./elementos/post.css");
+@import url("./elementos/curso-informacoes.css");
 
 /* Manter o import abaixo sempre no fim da página*/
 @import url("./elementos/mediaQuery.css");

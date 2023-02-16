@@ -1,8 +1,6 @@
 .blog {
     background-color: #E5E5E5;
-    display: flex;
-    flex-direction: column;
-    padding: 91px 128px 53px 128px;
+    padding-block: 91px 53px;
 }
 
 .blog h2 {
@@ -12,14 +10,20 @@
     font-style: normal;
     font-weight: 700;
     line-height: 43px;
+    margin-inline: 35px;
     padding-bottom: 73px;
+    text-transform: uppercase;
 }
 
 
-.blog-item-bg {
+.blog-itens {
     display: flex;
-    gap: 40px;
-    justify-content: center;
+    justify-content: space-between;
+    margin-inline: 40px;
+}
+
+.blog-item {
+    flex: 0 0 30%;
 }
 
 .blog-item a {
@@ -51,17 +55,12 @@
 }
 
 .blog-btn {
-    align-self: center;
-    margin-top: 101px;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .blog-item img {
-    height: 100%;
+    aspect-ratio: 319 / 193;
     object-fit: cover;
     width: 100%;
-}
-
-.blog-item div {
-    height: 193px;
-    width: 319px;
 }
