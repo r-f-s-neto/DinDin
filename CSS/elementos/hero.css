@@ -1,17 +1,18 @@
 .hero {
     padding-block: 3rem 5.625rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
 }
 
 .hero-container {
     align-items: center;
     display: flex;
-    flex-wrap: nowrap;
-    gap: 9rem;
+    gap: 7.8rem;
     justify-content: center;
 }
 
 .hero-infos {
-    flex: 0 0 420px;
+    flex: 1;
 }
 
 .hero-title {
@@ -29,7 +30,7 @@
 
 .hero-title--uppercase {
     color: #009688;
-    font-size: 3rem;
+    font-size: 2.94rem;
     line-height: 3.375rem;
     text-transform: uppercase;
 }
@@ -45,5 +46,11 @@
 
 .hero-image {
     align-self: center;
-    flex: 0 0 405px;
+    flex: 1;
+}
+
+.hero-image img {
+     width: 100%;
+     object-fit: cover;
+     min-width: 20.125rem;
 }

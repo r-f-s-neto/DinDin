@@ -41,6 +41,11 @@
         flex: 0 0 calc(50% - 1.25rem);
     }
 
+    .hero {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     .class-item {
         gap: 1.25rem;
     }
@@ -196,6 +201,14 @@
     #post {
         padding: 56px 51px 56px 51px;
     }
+
+    .hero-description {
+        text-align: center;
+    }
+
+    .hero-title--uppercase {
+        text-align: center;
+    }
 }
 
 @media (max-height:600px) {
@@ -284,6 +297,10 @@
 
     #post {
         padding: 56px 15px 56px 15px;
+    }
+
+    .hero-image img {
+        min-width: 15.625rem;
     }
 }
 
