@@ -62,6 +62,18 @@
         height: 477px;
     }
 
+    #contato img {
+        min-width: 350px;
+    }
+
+    #contato {
+        gap: 100px;
+    }
+
+    #contato form {
+        min-width: 300px;
+    }
+
 }
 
 @media (max-width: 900px) {
@@ -94,6 +106,10 @@
     #post {
         gap: 37px;
         padding: 111px 51px 111px 51px;
+    }
+
+    #contato form {
+        min-width: auto;
     }
 
 }
@@ -135,9 +151,6 @@
         flex: 0 0 100%;
     }
 
-    #contato {
-        gap: 30px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -302,6 +315,11 @@
     .hero-image img {
         min-width: 15.625rem;
     }
+
+    #contato img {
+        min-width: 250px;
+    }
+
 }
 
 @media (max-width:360px) {
