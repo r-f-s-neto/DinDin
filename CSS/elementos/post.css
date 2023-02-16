@@ -1,39 +1,39 @@
 #post {
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 74px;
-    align-items: center;
     padding: 111px 204px 111px 204px;
 }
 
 #post-item1 {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #post-item1 h1 {
+    color: #FF4081;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
     line-height: 57px;
     text-align: center;
-    color: #FF4081;
 }
 
 #post-item1 span {
+    color: #9D9D9D;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
     line-height: 21px;
-    color: #9D9D9D;
 }
 
 #post img {
-    width: 100%;
     object-fit: cover;
+    width: 100%;
 }
 
 #post-item2 {
@@ -42,37 +42,22 @@
 
 #post p {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
     line-height: 21px;
 }
 
 #post h3 {
+    color: #419488;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
     line-height: 29.87px;
-    color: #419488;
     padding-bottom: 32px;
 }
 
-#post p + p {
+#post p+p {
     padding-top: 30px;
-}
-
-#conhecaNossosCursos h2 {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 57px;
-    color: #FF4081;
-    text-align: center;
-    padding-top: 79px;
-}
-
-#conhecaNossosCursos {
-    background-color: #F7F7F7;
 }

@@ -1,27 +1,53 @@
 .cursos {
     background-color: #F7F7F7;
+    padding-block: 80px;
+}
+
+.cursos-container {
+    margin-inline: 40px;
+}
+
+.cursos-container h2 {
+    color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.cursos-items {
     display: flex;
-    gap: 121px;
-    justify-content: center;
-    padding: 109px 128px 117px 128px;
+    justify-content: space-between;
 }
 
 .cursos-item {
     align-items: center;
     display: flex;
+    flex: 0 0 29%;
     flex-direction: column;
+    gap: 23px;
+    text-align: center;
+}
+
+.cursos-item img {
+    aspect-ratio: 1 /1;
+    display: inline;
+    height: auto;
+    margin-bottom: 22px;
 }
 
 .cursos-item h3 {
     color: #FF4081;
-
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.15;
-    text-align: center;
-    width: max-content;
 }
 
 .cursos-item p {
@@ -30,7 +56,4 @@
     font-style: normal;
     font-weight: 300;
     line-height: 1.15;
-    padding-bottom: 26px;
-    padding-top: 23px;
-    text-align: center;
 }

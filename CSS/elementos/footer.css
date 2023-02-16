@@ -24,7 +24,7 @@
     font-weight: 400;
     line-height: 23px;
     position: relative;
-    transition: all 0.3s;
+    transition: color .5s ease-in-out;
 }
 
 #footer-item2 a::after {
@@ -33,7 +33,7 @@
     display: block;
     height: 3px;
     position: absolute;
-    transition: all 0.3s;
+    transition: background-color .5s ease-in-out, width .5s ease-in-out;
     width: 0%;
 }
 
