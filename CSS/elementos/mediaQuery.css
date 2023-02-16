@@ -11,16 +11,22 @@
     .blog-itens,
     .footer-container,
     .depoimentos-container,
-    .cursos-container {
+    .cursos-container,
+    .contato-container {
         margin-inline: 0;
     }
 
-    .hero-container {
+    .hero-container,
+    .contato-container {
         column-gap: 1.25rem;
     }
 
     .banner-container {
         gap: 1.25rem;
+    }
+
+    .contato-container {
+        gap: 3rem;
     }
 
     .depoimentos-items,
@@ -30,7 +36,8 @@
     }
 
     .classes-list,
-    .banner-container {
+    .banner-container,
+    .contato {
         padding-block: 66px;
     }
 
@@ -201,8 +208,14 @@
         row-gap: 3rem;
     }
 
-    .cursos-item {
+    .cursos-item,
+    .contato-form,
+    .contato-img {
         width: 70%;
+    }
+
+    .contato-container {
+        flex-direction: column;
     }
 
 }
@@ -294,7 +307,9 @@
         text-align: center;
     }
 
-    .cursos-item {
+    .cursos-item,
+    .contato-form,
+    .contato-img {
         width: 100%;
     }
 

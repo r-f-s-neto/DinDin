@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato | DinDin</title>
+    <meta name="description"
+        content="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. Iste natus error sit voluptatem.">
     <link rel="icon" href="../imagens/favicon/favicon.ico" sizes="any">
     <link rel="icon" href="../imagens/favicon/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="../imagens/favicon/apple-touch-icon.png">
@@ -13,9 +15,8 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="preload">
@@ -28,9 +29,9 @@
 
                 <nav aria-label="main">
                     <ul class="menu" role="menu">
-                        <li class="menu-item" role="menu-item"><a href="../cursos/">CURSOS</a></li>
-                        <li class="menu-item" role="menu-item"><a href="../blog/">BLOG</a></li>
-                        <li class="menu-item is-current" role="menu-item"><a href="../contato/"
+                        <li class="menu-item" role="menuitem"><a href="../cursos/">CURSOS</a></li>
+                        <li class="menu-item" role="menuitem"><a href="../blog/">BLOG</a></li>
+                        <li class="menu-item is-current" role="menuitem"><a href="../contato/"
                                 aria-current="page">CONTATO</a></li>
                     </ul>
                 </nav>
@@ -38,22 +39,37 @@
         </div>
     </header>
 
-    <section id="contato-bg">
+    <main>
 
+        <section class="contato">
 
-        <div id="contato">
-            <div>
-                <h1>Contato</h1>
-                <form action="./">
-                    <input type="text" name="nome" id="nome" placeholder="nome" required>
-                    <input type="email" name="email" id="email" placeholder="email" required>
-                    <textarea name="mensagem" id="mensagem" rows="15" placeholder="mensagem"></textarea>
-                    <button>enviar</button>
-                </form>
+            <div class="container">
+                <div class="contato-container">
+
+                    <div class="contato-form">
+                        <h1>Contato</h1>
+
+                        <form action="./">
+                            <input type="text" name="nome" id="nome" placeholder="nome" required>
+                            <input type="email" name="email" id="email" placeholder="email" required>
+                            <textarea name="mensagem" id="mensagem" rows="15" placeholder="mensagem"></textarea>
+                            <button type="submit" class="btn btn--primary btn--sm">
+                                <span class="btn__text">enviar</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contato-img">
+                        <img src="../imagens/dindin-imagens/ilustra-contato.webp" alt width="444" height="444">
+                    </div>
+
+                </div>
+
             </div>
-            <div><img src="../imagens/dindin-imagens/ilustra-contato.png" alt=""></div>
-        </div>
-    </section>
+
+        </section>
+
+    </main>
 
     <footer class="footer">
 
@@ -69,7 +85,8 @@
                 <ul id="footer-item2" role="menu">
                     <li role="menuitem"><a href="../cursos/">cursos</a></li>
                     <li role="menuitem"><a href="../blog/">blog</a></li>
-                    <li role="menuitem"><a href="/./contato/" aria-current="page">contato</a></li>
+                    <li class="is-current" role="menuitem"><a href="../contato/" aria-current="page">contato</a>
+                    </li>
                 </ul>
 
                 <ul id="footer-item3">

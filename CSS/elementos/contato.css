@@ -1,8 +1,16 @@
-#contato-bg {
-    padding: 105px 139px 97px 139px;
+.contato {
+    padding-block: 90px;
 }
 
-#contato h1 {
+.contato-container {
+    align-items: center;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-inline: 40px;
+}
+
+.contato-container h1 {
     color: #FF4081;
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
@@ -12,55 +20,41 @@
     padding-bottom: 44px;
 }
 
-#contato {
-    display: flex;
-    gap: 201px;
-    justify-content: center;
-}
-
-#contato form input {
-    background: #FFFFFF;
-    border: 1px solid #686868;
-    border-radius: 7px;
-    display: block;
-    height: 32px;
-    width: 100%;
-}
-
-#contato form button {
-    background-color: #FF4081;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    cursor: pointer;
-    display: block;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 22px;
-    padding: 5px 31.5px;
-    text-align: center;
-    width: max-content;
-}
-
-#contato form {
-    display: flex;
+.contato-form {
     flex: 1;
+}
+
+.contato-form form {
+    display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-#contato div {
+.contato-form form input,
+.contato-form form textarea {
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 1.125;
+    padding: 7px 22px;
+}
+
+.contato-form form textarea {
+    height: 190px;
+}
+
+.contato-form form button {
+    align-self: flex-start;
+}
+
+.contato-img {
     flex: 1;
 }
 
-#contato form textarea {
-    background-color: #FFFFFF;
-    border: 1px solid #686868;
-    border-radius: 7px;
-}
-
-#contato img {
-    min-width: 250px;
+.contato-img img {
+    aspect-ratio: 1/1;
+    height: auto;
 }
