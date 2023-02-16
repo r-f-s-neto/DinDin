@@ -10,7 +10,8 @@
     .blog h2,
     .blog-itens,
     .footer-container,
-    .depoimentos-container {
+    .depoimentos-container,
+    .cursos-container {
         margin-inline: 0;
     }
 
@@ -73,7 +74,8 @@
         gap: 2rem;
     }
 
-    .depoimentos {
+    .depoimentos,
+    .cursos {
         padding-block: 50px;
     }
 
@@ -160,6 +162,17 @@
     .banner-item2 img {
         margin-inline: auto;
     }
+
+    .cursos-items {
+        align-items: center;
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .cursos-item {
+        width: 70%;
+    }
+
 }
 
 @media (max-width:685px) {
@@ -196,11 +209,6 @@
 
 @media (max-width:500px) {
 
-    .cursos {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
     .blog {
         padding-top: 38px;
     }
@@ -235,10 +243,6 @@
         padding: 52px 10px 48px 10px;
     }
 
-    .cursos-item h3 {
-        width: auto;
-    }
-
     #post img {
         height: 211px;
     }
@@ -252,6 +256,11 @@
         justify-content: center;
         text-align: center;
     }
+
+    .cursos-item {
+        width: 100%;
+    }
+
 }
 
 @media (max-width:360px) {
@@ -263,9 +272,7 @@
         gap: 0;
         justify-content: space-between;
     }
-}
 
-@media (max-width:350px) {
     #post-item1 h1 {
         font-size: 30px;
         line-height: 1.15;
