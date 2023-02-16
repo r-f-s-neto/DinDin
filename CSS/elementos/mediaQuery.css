@@ -29,6 +29,7 @@
         row-gap: 3rem;
     }
 
+    .classes-list,
     .banner-container {
         padding-block: 66px;
     }
