@@ -7,6 +7,15 @@
         width: 90%;
     }
 
+    .blog h2,
+    .blog-itens {
+        margin-inline: 0;
+    }
+
+    .footer-container {
+        margin-inline: 0;
+    }
+
     .cursosCurso-item p {
         padding-right: 0px;
     }
@@ -51,19 +60,25 @@
 }
 
 @media (max-width: 900px) {
-    #contato {
-        gap: 30px;
+
+    .footer-logo {
+        width: 250px;
     }
 
-    .blog-hero-container {
+    .blog-itens {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero-container {
         column-gap: 1.25rem;
     }
 
-    .blog-hero-infos {
+    .hero-infos {
         flex: 0 0 calc(50% - 1.25rem);
     }
 
-    .blog-hero-image {
+    .hero-image {
         flex: 0 0 calc(50% - 1.25rem);
     }
 
@@ -75,12 +90,12 @@
         gap: 37px;
         padding: 111px 51px 111px 51px;
     }
-    
+
 }
 
 @media (max-width: 768px) {
 
-    .blog-hero-container {
+    .hero-container {
         flex-wrap: wrap;
         row-gap: 2rem;
     }
@@ -114,10 +129,20 @@
     .class-video-container {
         flex: 0 0 100%;
     }
+
+    #contato {
+        gap: 30px;
+    }
 }
 
 @media (max-width: 768px) {
 
+    .footer-container {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        text-align: center;
+    }
 
     .post-list-grid {
         row-gap: 3rem;
@@ -131,18 +156,21 @@
         height: 296px;
     }
 
+    .blog h2 {
+        padding-bottom: 50px;
+    }
+
+    .blog-btn {
+        margin-top: 50px;
+    }
 
 }
 
 @media (max-width:685px) {
-    .topo {
-        justify-content: center;
-    }
 
-    footer {
+    .topo-container {
         flex-direction: column;
-        gap: 10px;
-        justify-content: center;
+        row-gap: 1.25rem;
     }
 
     .modal {
@@ -177,27 +205,9 @@
 }
 
 @media (max-width:500px) {
-    .blog {
-        text-align: center;
-    }
-
-    .blog-item div {
-        width: auto;
-    }
 
     .banner-item1 h1 {
         min-width: auto;
-    }
-
-    .topo {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    footer {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
     }
 
     .depoimentos {
@@ -219,8 +229,6 @@
     }
 
     .blog {
-        padding-left: 10px;
-        padding-right: 10px;
         padding-top: 38px;
     }
 
@@ -254,10 +262,6 @@
         text-align: center;
     }
 
-    footer {
-        flex-direction: column;
-    }
-
     .btn--outline-light {
         padding: 10px 15px;
     }
@@ -283,9 +287,26 @@
     }
 }
 
+@media (max-width:360px) {
+    .topo-container nav {
+        width: 100%;
+    }
+
+    .menu {
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+
 @media (max-width:350px) {
     #post-item1 h1 {
         font-size: 30px;
         line-height: 1.15;
+    }
+}
+
+@media (max-height:600px) {
+    .modal-body img {
+        align-self: flex-start;
     }
 }

@@ -1,3 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
 ul {
     list-style: none;
     margin: 0px;
@@ -7,10 +19,6 @@ ul {
 a {
     display: inline-block;
     text-decoration: none;
-}
-
-body {
-    margin: 0px;
 }
 
 img {
@@ -34,8 +42,4 @@ span {
 
 blockquote {
     margin: 0px;
-}
-
-* {
-    box-sizing: border-box;
 }

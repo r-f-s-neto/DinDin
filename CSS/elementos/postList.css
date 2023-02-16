@@ -19,6 +19,9 @@
 
 .post-image {
     aspect-ratio: 2 / 1;
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
     width: 100%;
 }
 

@@ -19,19 +19,23 @@
 </head>
 
 <body>
-    <header class="topo">
-        <div>
-            <a href="../../"><img src="../../imagens/dindin-imagens/logo-header.png" alt="Logo da dindin"
-                    height="71"></a>
-        </div>
 
-        <nav aria-label="main menu">
-            <ul class="menu" role="menu">
-                <li class="menu-item is-current" role="menu-item"><a href="../../cursos/">CURSOS</a></li>
-                <li class="menu-item" role="menu-item"><a href="../../blog/">BLOG</a></li>
-                <li class="menu-item" role="menu-item"><a href="../../contato/">CONTATO</a></li>
-            </ul>
-        </nav>
+    <header class="topo">
+        <div class="container">
+            <div class="topo-container">
+                <a href="../../"><img src="../../imagens/dindin-imagens/logo-header.svg" alt="Logo da dindin"
+                        width="239" height="65"></a>
+
+                <nav aria-label="main">
+                    <ul class="menu" role="menu">
+                        <li class="menu-item is-current" role="menu-item"><a href="../../cursos/"
+                                aria-current="page">CURSOS</a></li>
+                        <li class="menu-item" role="menu-item"><a href="../../blog/">BLOG</a></li>
+                        <li class="menu-item" role="menu-item"><a href="../../contato/">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main>
@@ -132,29 +136,40 @@
 
     </main>
 
-    <footer>
-        <div>
-            <img src="../../imagens/dindin-imagens/logo-footer.png" alt="Logo da dindin">
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-container">
+
+                <a href="#top" title="Ir para o topo">
+                    <img src="../../imagens/dindin-imagens/logo-footer.svg" alt="Logo da dindin" width="300" height="94"
+                        class="footer-logo">
+                </a>
+
+                <ul id="footer-item2" role="menu">
+                    <li class="is-current"><a href="../../cursos/" aria-current="page">cursos</a></li>
+                    <li><a href="../../blog/">blog</a></li>
+                    <li><a href="../../contato/">contato</a></li>
+                </ul>
+
+                <ul id="footer-item3">
+                    <li>
+                        <a href="../../contato/" class="btn btn--block btn--outline-light">
+                            <span class="btn__text">quero ser prof</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../contato/" class="btn btn--block btn--outline-light">
+                            <span class="btn__text">aqui tem outro link</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
         </div>
 
-        <ul id="footer-item2">
-            <li class="is-current"><a href="../../cursos/">cursos</a></li>
-            <li><a href="../../blog/">blog</a></li>
-            <li><a href="../../contato/">contato</a></li>
-        </ul>
-
-        <ul id="footer-item3">
-            <li>
-                <a href="#" class="btn btn--block btn--outline-light">
-                    <span class="btn__text">quero ser prof</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="btn btn--block btn--outline-light">
-                    <span class="btn__text">aqui tem outro link</span>
-                </a>
-            </li>
-        </ul>
     </footer>
 
 </body>

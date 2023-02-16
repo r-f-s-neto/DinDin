@@ -1,9 +1,13 @@
-footer {
-    align-items: center;
+.footer {
     background-color: #419488;
+}
+
+.footer-container {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 53px 128px;
+    margin-inline: 40px;
+    padding-block: 45px;
 }
 
 #footer-item2 {
