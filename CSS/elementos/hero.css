@@ -47,3 +47,7 @@
     align-self: center;
     flex: 0 0 405px;
 }
+
+.hero-image img {
+    height: auto;
+}
